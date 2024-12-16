@@ -35,7 +35,7 @@ section:first-child div:nth-child(odd){
    width: 550px;
   }
   section:nth-child(3) div{ 
-    top:0px ;
+  
     margin: 3px;
    display:inline-block;
    width: 50px;
@@ -96,6 +96,18 @@ section:first-child div:nth-child(odd){
    background-color:rgb(139, 194, 231);
    border: 1px solid black;
   }
-  section:nth-child(7) div:nth-child(n+2){
+  section:nth-child(7) div:nth-child(n+7){
+    background-color: orange;
+  }
+
+  section:nth-child(8) div{ 
+    top:0px ;
+   display:inline-block;
+   width: 25px;
+   height: 25px;
+   background-color:rgb(139, 194, 231);
+   border: 1px solid black;
+  }
+  section:nth-child(8) div:nth-child(n+2){
     background-color: orange;
   }
